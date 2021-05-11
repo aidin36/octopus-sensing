@@ -13,4 +13,4 @@ build: off
 
 test_script:
     - python -m poetry install -v
-    - python -m poetry pytest --full-trace --showlocals
+    - python -m poetry run pytest --full-trace --showlocals
